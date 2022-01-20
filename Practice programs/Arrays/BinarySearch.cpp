@@ -15,10 +15,8 @@ int BinarySearch(int a[], int key, int n){
             e = mid-1;
         }
         else {
-            e = mid+1;
+            s = mid+1;
         }
-
-        s++;
     }
     return -1;
 }
